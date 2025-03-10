@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling </title>
+    
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .internal-style {
+            color: blue;
+            font-size: 20px;
+        }
+        .internal-style:hover {
+            color: darkblue;
+            font-size: 22px;
+        }
+        .external-style:hover {
+    color: green;
+    font-weight: bold;
+   
+}
+    </style>
+</head>
+<body>
+      <!-- Inline CSS -->
+    <h1 style="color: red;">Inline CSS </h1>
+    
+    <p class="internal-style">This line is styled using internal CSS.</p>
+    
+    <p class="external-style">This line is styled using external CSS.</p>
+</body>
+</html>
