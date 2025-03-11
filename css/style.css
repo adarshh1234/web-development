@@ -1,0 +1,10 @@
+.external-style {
+    color: black;
+    font-size: 18px;
+    
+}
+
+.external-style:hover {
+    color: green;
+    font-weight: bold;
+}
