@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+    border: 5px solid white;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
